@@ -1,0 +1,13 @@
+Train: True # False for test mode
+seed: 7
+batch_size: 4
+num_workers: 8
+optim: 'Adam' 
+loss: 'MSELoss'
+frameloss: 'frame_mse'
+model: HASANet_PLUS
+SSL_pth: '../src/WavLM-Large.pt' # the pt file of the pretrained WavLM
+train_epoch: 80
+train_lr: 0.00001
+train_patience: 15
+train_dir: 'save'

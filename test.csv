@@ -1,0 +1,6 @@
+ref,data,HASQI,HASPI,HL,HLType
+../OOD/blstm1/test/valid/clean/Train_2.wav,../OOD/blstm1/test/valid/noisy/Train_2.wav,0.4319033125975951,0.9082164992494662,[10 15 15 25 65 80],highfrequency
+../OOD/blstm1/test/valid/clean/Train_5.wav,../OOD/blstm1/test/valid/noisy/Train_5.wav,0.5659223540665546,0.6863996047736499,[25 20 25 45 60 70],highfrequency
+../OOD/blstm1/test/valid/clean/Train_11.wav,../OOD/blstm1/test/valid/noisy/Train_11.wav,0.8306524322929791,0.9871243528862848,[15 15 25 40 60 70],highfrequency
+../OOD/blstm1/test/valid/clean/Train_16.wav,../OOD/blstm1/test/valid/noisy/Train_16.wav,0.5527341247729618,0.9904473073507568,[20 20 20 35 70 80],highfrequency
+../OOD/blstm1/test/valid/clean/Train_18.wav,../OOD/blstm1/test/valid/noisy/Train_18.wav,0.6248788569081014,0.9305406218043536,[10 20 20 45 75 75],highfrequency
