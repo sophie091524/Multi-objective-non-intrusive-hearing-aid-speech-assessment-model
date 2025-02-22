@@ -76,7 +76,7 @@ def main(config_path):
         WEIGHT_LAYER = 25
         
         net = getattr(module, args.model)(ssl_model, SSL_OUT_DIM, WEIGHT_LAYER)    
-        net = torch.nn.DataParallel(net, device_ids=[0,1])
+        net = torch.nn.DataParallel(net, device_ids=[0])
         net = net.to(device) 
         train(net, train_loader, valid_loader, device, args)
         
