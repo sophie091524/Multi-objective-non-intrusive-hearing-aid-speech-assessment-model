@@ -35,7 +35,7 @@ Details of the hyperparameters are listed in config.yaml.
 
 ### Pre-Trained Model
 
-The Pre-trained HASA-Net+ will be released soon.
+Please download the model weights from [here](https://drive.google.com/file/d/1ntxOGY1cWqyxdeL-Kq37dgyczx1DTiOc/view?usp=sharing) and create a folder named `save_model`. Then, move the downloaded weight file into the folder.
 
 ## Citation
 
